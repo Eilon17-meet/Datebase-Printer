@@ -8,7 +8,7 @@ from sqlalchemy import create_engine, MetaData, inspect, Table
 if __name__ == '__main__':
     if len(sys.argv) != 2:
         print("ERROR: You need to give me a .db file. For example:")
-        print("python print_database crudlab.db")
+        print("python print_database database_name.db")
         sys.exit(1)
 
     db_file_name = sys.argv[1]
